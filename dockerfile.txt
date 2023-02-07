@@ -1,5 +1,0 @@
-FROM openjdk:8
-COPY . /home/indium/sarath/java
-WORKDIR /home/indium/sarath/java
-RUN javac java_sample.java
-CMD ["java","java_sample"]
